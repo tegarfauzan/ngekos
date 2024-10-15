@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#DAE1E9];
+    @apply bg-[#DAE1E9] font-poppins text-[rgba(7,7,7,1)];
 }
-
