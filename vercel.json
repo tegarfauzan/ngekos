@@ -1,7 +1,21 @@
 {
     "builds": [
         {
-            "src": "src",
+            "src": "src/index.html",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "src/output.css",
+            "use": "@vercel/static"
+        }
+        ,
+        {
+            "src": "src/assets",
+            "use": "@vercel/static"
+        }
+        ,
+        {
+            "src": "src/js",
             "use": "@vercel/static"
         }
     ],
